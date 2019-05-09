@@ -1,3 +1,2 @@
 import Button from './Components/Button/button';
-
-export default Button;
+import Icon from './Components/Icon/Icon';

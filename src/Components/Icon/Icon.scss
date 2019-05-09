@@ -1,0 +1,27 @@
+@import "../../CommonStyle/common";
+
+.button{
+  background: $base;
+  cursor: pointer;
+  padding: 10px;
+  display: inline-block;
+  height: 50px;
+  line-height: 25px;
+  text-align: center;
+  user-select: none;
+
+}
+.button-active{
+    @extend .innerDash;
+    border-top: 1px solid $line;
+    border-right: 1px solid $white;
+    border-bottom: 1px solid $white;
+    border-left: 1px solid $line;
+}
+
+.button-default{
+  border-top: 1px solid $white;
+  border-right: 1px solid $line;
+  border-bottom: 1px solid $line;
+  border-left: 1px solid $white;
+}
