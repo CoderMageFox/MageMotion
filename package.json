@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/CoderMageFox/React98/issues"
   },
-  "homepage": "https://github.com/CoderMageFox/React98#readme"
+  "homepage": "https://github.com/CoderMageFox/React98#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "typescript": "^3.4.5",
+    "webpack": "^4.32.1",
+    "webpack-cli": "^3.3.2"
+  }
 }
