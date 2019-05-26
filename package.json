@@ -1,34 +1,55 @@
 {
-  "name": "React98",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server",
-    "build": "webpack"
-  },
+  "name": "react98",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CoderMageFox/React98.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CoderMageFox/React98/issues"
-  },
-  "homepage": "https://github.com/CoderMageFox/React98#readme",
-  "devDependencies": {
-    "@types/react-dom": "^16.8.4",
-    "awesome-typescript-loader": "^5.2.1",
-    "typescript": "^3.4.5",
-    "webpack": "^4.32.2",
-    "webpack-cli": "^3.3.2"
+    "url": "git@github.com:CoderMageFox/React98.git"
   },
   "dependencies": {
-    "@types/react": "^16.8.18",
+    "prop-types": "^15.6.2"
+  },
+  "peerDependencies": {},
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.dev.js",
+    "build": "webpack -p --config webpack.config.prod.js",
+    "test": "jest",
+    "ci": "JEST_JUNIT_OUTPUT=./test-results/jest/results.xml jest --config=jest.config.ci.js"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.14",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
+    "@types/jest": "^23.3.5",
+    "@types/node": "^10.11.7",
+    "@types/react": "^16.4.16",
+    "@types/react-dom": "^16.0.9",
+    "@types/react-test-renderer": "^16.0.3",
+    "@types/webpack-env": "^1.13.6",
+    "awesome-typescript-loader": "^5.2.1",
+    "css-loader": "^1.0.0",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
     "html-webpack-plugin": "^3.2.0",
-    "webpack-dev-server": "^3.4.1"
+    "jest": "^23.6.0",
+    "jest-junit": "^5.2.0",
+    "node-sass": "^4.9.4",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-test-renderer": "^16.5.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "svg-sprite-loader": "^4.1.2",
+    "ts-jest": "^23.10.4",
+    "tslint": "^5.16.0",
+    "tslint-loader": "^3.5.4",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.1.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
   }
 }
