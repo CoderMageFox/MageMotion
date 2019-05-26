@@ -1,2 +1,3 @@
-// TODO 删掉注释
-console.log(666)
+import React from "react";
+import ReactDOM from "react-dom";
+
