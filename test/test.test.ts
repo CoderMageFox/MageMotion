@@ -1,7 +1,7 @@
 import Test from "../lib/test";
 
 describe('Test', () => {
-    it('exist', () => {
+    it('Test', () => {
         expect(Test).toBeTruthy();
     });
 });

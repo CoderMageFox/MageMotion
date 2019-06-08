@@ -20,3 +20,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+.gitignore
+.ignore
+.idea/icare-oa-plus.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml

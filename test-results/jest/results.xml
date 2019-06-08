@@ -1,6 +1,12 @@
-<testsuites name="jest tests" tests="1" failures="0" time="3.53">
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-10-15T05:06:37" time="1.318" tests="1">
-    <testcase classname=" renders without crashing" name=" renders without crashing" time="0.011">
+<testsuites name="jest tests" tests="3" failures="0" time="1.683">
+  <testsuite name="Component" errors="0" failures="0" skipped="0" timestamp="2019-06-08T12:30:32" time="0.601" tests="2">
+    <testcase classname="Component exist" name="Component exist" time="0.005">
+    </testcase>
+    <testcase classname="Component scopedClass string" name="Component scopedClass string" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="Test" errors="0" failures="0" skipped="0" timestamp="2019-06-08T12:30:32" time="0.648" tests="1">
+    <testcase classname="Test Test" name="Test Test" time="0.006">
     </testcase>
   </testsuite>
 </testsuites>
