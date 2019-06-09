@@ -51,11 +51,7 @@ jobs:
           at: .
       - run: ls -l
       - run: npm config set //registry.npmjs.org/:_authToken $NPM_TOKEN
-      - run: npm run publish
-
-
-
-
+      - run: npm publish
 workflows:
   version: 2
   build_accept_deploy:
