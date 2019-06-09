@@ -42,10 +42,10 @@ jobs:
       - store_test_results:
           path: test-results
   publish:
-     <<: *defaults
-     steps:
+    <<: *defaults
+    steps:
       - attach_workspace:
-          - at: .
+          at: .
       - run: npm run publish
 workflows:
   version: 2
