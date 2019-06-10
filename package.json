@@ -18,7 +18,8 @@
     "start": "webpack-dev-server --config webpack.config.dev.js",
     "build": "webpack -p --config webpack.config.prod.js",
     "test": "jest",
-    "ci": "JEST_JUNIT_OUTPUT=./test-results/jest/results.xml jest --config=jest.config.ci.js"
+    "ci": "JEST_JUNIT_OUTPUT=./test-results/jest/results.xml jest --config=jest.config.ci.js",
+    "deploy": "./deploy.sh"
   },
   "devDependencies": {
     "@types/enzyme": "^3.1.14",
