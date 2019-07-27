@@ -1,5 +1,4 @@
 {
-  "files": ["types/custom.d.ts"],
   "compilerOptions": {
     "baseUrl": ".",
     "outDir": "build/dist",
@@ -19,7 +18,8 @@
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
     "esModuleInterop": true,
-    "noUnusedLocals": true
+    "noUnusedLocals": true,
+    "skipLibCheck": true
   },
   "exclude": [
     "node_modules",

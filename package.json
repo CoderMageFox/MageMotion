@@ -11,6 +11,7 @@
     "url": "git@github.com:CoderMageFox/React98.git"
   },
   "dependencies": {
+    "git-cz": "^3.2.1",
     "prop-types": "^15.6.2"
   },
   "peerDependencies": {},
@@ -19,7 +20,8 @@
     "build": "webpack -p --config webpack.config.prod.js",
     "test": "jest",
     "ci": "JEST_JUNIT_OUTPUT=./test-results/jest/results.xml jest --config=jest.config.ci.js",
-    "deploy": "./deploy.sh"
+    "deploy": "./deploy.sh",
+    "cz": "bash ./bashscripts/cz.sh"
   },
   "devDependencies": {
     "@types/enzyme": "^3.1.14",
