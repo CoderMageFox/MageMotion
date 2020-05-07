@@ -5,7 +5,7 @@ module.exports = {
   entry: { index: "./lib/index.tsx" },
   output: {
     path: path.resolve(__dirname, "dist"),
-    library: "react98",
+    library: "magemotion",
     libraryTarget: "umd",
   },
   resolve: {
